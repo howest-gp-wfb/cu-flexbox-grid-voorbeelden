@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/flexboxStyles.css">
+    <link rel="stylesheet" href="../css/navStyles.css">
+    <link rel="stylesheet" href="../css/mainStyles.css">
+    <title>Flexbox</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a> </li>
+            <li><a href="float.html">Float</a></li>
+            <li><a href="flexbox.html" class="currentPage">Flexbox <br /> nowrap</a></li>
+            <li><a href="flexbox-wrap.html">Flexbox <br /> wrap</a></li>
+            <li><a href="grid.html">grid</a></li>
+            <li><a href="grid2.html" >grid2</a></li>
+        </ul>
+    </nav>
+
+
+
+    <table>
+        <tr>
+            <th>Output</th>
+            <th>CSS</th>
+        </tr>
+        <tr>
+            
+            <td>
+                <div class="flex-container-row">
+                    <div class="flex-item">
+                        <h4>1. Jan</h4>
+                        <p>Kuisen</p>
+                    </div>
+                    <div class="flex-item">
+                        <h4>2. Magda</h4>
+                        <p>Brood bakken</p>
+                    </div>
+                    <div class="flex-item">
+                        <h4>3. Gerard</h4>
+                        <p>Onkruid wieden</p>
+                        <p>Gras maaien</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+
+        <pre>
+    .flex-container-row {
+        padding:10px;
+        background-color:lightblue;
+        display: flex;
+    }
+    
+    .flex-item {
+        margin:10px;
+        background-color: lightyellow;
+        padding:10px;
+    }
+        </pre>
+            </td>
+        </tr>
+
+        <tr>
+            
+            <td>
+                <div class="flex-container-row-reverse">
+                    <div class="flex-item">
+                        <h4>1. Jan</h4>
+                        <p>Kuisen</p>
+                    </div>
+                    <div class="flex-item">
+                        <h4>2. Magda</h4>
+                        <p>Brood bakken</p>
+                    </div>
+                    <div class="flex-item">
+                        <h4>3. Gerard</h4>
+                        <p>Onkruid wieden</p>
+                        <p>Gras maaien</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+
+        <pre>
+    .flex-container-row-reverse {
+        padding:10px;
+        background-color:lightblue;
+        display: flex;
+        <b>flex-direction: row-reverse;</b>
+    }
+        </pre>
+            </td>
+        </tr>
+
+        <tr>
+            
+            <td>
+                <div class="flex-container-column">
+                    <div class="flex-item">
+                        <h4>1. Jan</h4>
+                        <p>Kuisen</p>
+                    </div>
+                    <div class="flex-item">
+                        <h4>3. Gerard</h4>
+                        <p>Onkruid wieden</p>
+                        <p>Gras maaien</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+
+        <pre>
+    .flex-container-column {
+        padding:10px;
+        background-color:lightblue;
+        display: flex;
+        flex-direction: column;
+    }
+        </pre>
+            </td>
+        </tr>
+
+    </table>
+ 
+
+</body>
+
+</html>

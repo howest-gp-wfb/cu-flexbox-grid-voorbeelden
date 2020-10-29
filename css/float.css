@@ -1,0 +1,14 @@
+.flex-container {
+    padding:10px;
+    background-color:lightblue;
+    display: block;
+    height: 230px;
+}
+
+.flex-item {
+    float:left;
+    margin:10px;
+    background-color: lightyellow;
+    padding:10px;
+}
+

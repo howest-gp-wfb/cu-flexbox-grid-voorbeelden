@@ -1,0 +1,37 @@
+body {
+    margin-left: 50px;
+}
+
+h4, p {
+    margin: 0 5px;
+}
+
+
+
+.grid-container {
+    background-color: khaki;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr; 
+    grid-template-rows: 125px auto 1fr  ;
+    grid-column-gap: 50px;
+    grid-row-gap: 15px;
+}
+
+.grid-item {
+    margin: 10px;
+    background-color: lightblue;
+    padding: 5px;
+}
+
+#divJan {
+    grid-column-start: 2;
+}
+
+#divMagda {
+    grid-column-end: span 2;
+}
+
+#divOscar {
+    grid-column-start: span 2;
+
+}

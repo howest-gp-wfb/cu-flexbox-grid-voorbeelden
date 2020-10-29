@@ -1,0 +1,27 @@
+.flex-container-wrap {
+    padding:10px;
+    background-color:lightblue;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.flex-item {
+    margin:10px;
+    background-color: lightyellow;
+    padding:10px;
+}
+
+.flex-container-row-reverse {
+    padding:10px;
+    background-color:lightblue;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-container-column {
+    padding:10px;
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+}

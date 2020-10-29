@@ -1,0 +1,17 @@
+.currentPage {
+    color: red;
+}
+
+
+
+pre {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

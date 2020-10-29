@@ -1,0 +1,47 @@
+body {
+    display:grid;
+    grid-template-columns:150px auto 100px;
+    grid-template-rows:100px auto 50px;
+    height:95%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+    
+html { 
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
+footer {
+    grid-column-start:1;
+    grid-column-end:4;
+    text-align:center;
+    background-color: goldenrod;
+
+    width: 100%;
+    padding: 15px;
+}
+
+header{
+    grid-column-start:1;
+    grid-column-end:4;
+    text-align:center;
+    background-color: burlywood;
+}
+
+main {
+    background-color: turquoise;
+    width: 250px;
+
+}
+
+nav {
+    background-color: greenyellow;
+}
+
+aside {
+    background-color: orange;
+    justify-self: center;
+}
